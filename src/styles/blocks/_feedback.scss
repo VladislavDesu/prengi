@@ -1,0 +1,38 @@
+.feedback {
+   text-align: center;
+
+   &__wrapper {
+      min-height: 690px;
+      padding-top: 80px;
+      padding-bottom: 30px;
+   }
+
+   &__text {
+      margin-bottom: 29px;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 36px;
+      color: #393939;
+   }
+
+   &__img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 68px;
+   }
+
+   &__btn {
+      width: 241px;
+      height: 60px;
+      margin: 0 auto;
+      padding: 0;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      background-color: #00c2f0;
+      text-transform: uppercase;
+   }
+}
